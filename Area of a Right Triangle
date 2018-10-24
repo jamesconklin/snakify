@@ -1,0 +1,7 @@
+# Read the numbers b and h like this:
+base = int(input())
+height = int(input())
+multiply = base * height
+divide = multiply / 2
+# Print the result with print()
+print(divide)

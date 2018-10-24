@@ -1,0 +1,17 @@
+# Read an integer:
+hour1 = int(input())
+minute1 = int(input())
+second1 = int(input())
+hour2 = int(input())
+minute2 = int(input())
+second2 = int(input())
+hour1seconds = hour1 * 3600
+hour2seconds = hour2 * 3600
+minute1seconds = minute1 * 60
+minute2seconds = minute2 * 60
+differenceHrs = hour2seconds - hour1seconds
+differenceMin = minute2seconds - minute1seconds
+differenceSec = second2 - second1
+timestampDiff = differenceHrs + differenceMin + differenceSec
+
+print(timestampDiff)
