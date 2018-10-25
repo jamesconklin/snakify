@@ -1,0 +1,9 @@
+a = int(input())
+b = int(input())
+c = int(input())
+aDesks = (a//2) + (a%2)
+bDesks = (b//2) + (b%2)
+cDesks = (c//2) + (c%2)
+total = aDesks + bDesks + cDesks
+
+print(total)
