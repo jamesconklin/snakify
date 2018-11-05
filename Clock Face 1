@@ -1,0 +1,4 @@
+hrs = int(input())
+min = int(input())
+sec = int(input()) 
+print(hrs * 30 + min * 30 / 60 + sec * 30 / 3600)

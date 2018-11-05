@@ -1,0 +1,7 @@
+# Read an integer:
+a = int(input())
+b = a // 10
+c = b * 10
+d= a - c
+
+print(d)
